@@ -1,0 +1,26 @@
+.header {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #424242;
+    }
+    &__out {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 83px;
+        color: #41522E;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 125% */
+        letter-spacing: -0.408px;
+    }
+}

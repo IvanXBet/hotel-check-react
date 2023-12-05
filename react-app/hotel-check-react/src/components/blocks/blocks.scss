@@ -1,0 +1,12 @@
+.blocks {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template: 410px 472px / 360px 640px;
+    gap: 24px;
+    margin-bottom: 30px;
+    .main {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+}
